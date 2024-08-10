@@ -1,0 +1,44 @@
+.content {
+	margin-top: 96px;
+	margin-bottom: 80px;
+	@include pad {
+		margin: 80px 0;
+	}
+	@include mobile {
+		margin-top: 40px;
+		margin-bottom: 64px;
+	}
+}
+.h2 {
+	border-left: 8px solid #9f1213;
+	margin-bottom: 32px;
+	@include mobile {
+		font-size: 24px;
+		margin-bottom: 24px;
+	}
+}
+.form {
+	width: 33.33%;
+	margin-bottom: 40px;
+	label {
+		font-size: 24px;
+		margin-right: 16px;
+	}
+	select {
+		width: 70%;
+	}
+	@include pad {
+		width: 70%;
+	}
+	@include mobile {
+		width: 100%;
+		margin-bottom: 30px;
+		label {
+			font-size: 16px;
+			margin-right: 8px;
+		}
+		select {
+			width: 80%;
+		}
+	}
+}
