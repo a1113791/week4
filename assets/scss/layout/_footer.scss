@@ -1,99 +1,99 @@
 .footer {
-    background: #aa0601;
+	background: #aa0601;
 }
 .footer-content {
-    padding-top: 60px;
-    justify-content: space-between;
+	padding-top: 60px;
+	justify-content: space-between;
 }
 .footer-menu {
-    margin: 0 -24px;
-    margin-bottom: 35px;
+	margin: 0 -24px;
+	margin-bottom: 35px;
 }
 .footer-menu li {
-    padding: 0 24px;
+	padding: 0 24px;
 }
 .footer-menu li a {
-    color: #fff;
+	color: #fff;
 }
 .footer-menu li a:hover {
-    color: #000;
+	color: #000;
 }
 .contact a {
-    font-size: 36px;
-    color: #fff;
-    margin-bottom: 8px;
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 8px;
 }
-.material-symbols-outlined {
-    font-size: 36px;
-    margin-right: 20px;
-    color: #fff;
+.contact .material-symbols-outlined {
+	font-size: 36px;
+	margin-right: 20px;
+	color: #fff;
 }
 .contact a:hover {
-    color: #000;
+	color: #000;
 }
-.material-symbols-outlined:hover {
-    color: #000;
+.contact .material-symbols-outlined:hover {
+	color: #000;
 }
 .ic-social {
-    margin: 0 -12px;
+	margin: 0 -12px;
 }
 .ic-social a {
-    padding: 0 12px;
+	padding: 0 12px;
 }
 .ic-social a img {
-    width: 48px;
-    height: 48px;
+	width: 48px;
+	height: 48px;
 }
 .footer-copyright {
-    padding: 32px 0;
-    color: #fff;
-    justify-content: space-between;
+	padding: 32px 0;
+	color: #fff;
+	justify-content: space-between;
 }
 .privacy p {
-    font-size: 14px;
+	font-size: 14px;
 }
 .privacy-p {
-    margin-right: 48px;
+	margin-right: 48px;
 }
 @include mobile-larger {
-    .footer-content {
-        padding-top: 24px;
-    }
-    .footer-menu {
-        display: none;
-    }
-    .contact p {
-        font-size: 16px;
-    }
-    .contact a {
-        font-size: 16px;
-    }
-    .material-symbols-outlined {
-        font-size: 20px;
-    }
-    .ic-social {
-        margin: 0 -4px;
-    }
-    .ic-social a {
-        padding: 0 4px;
-    }
-    .ic-social a img {
-        width: 24px;
-        height: 24px;
-    }
-    .footer-copyright {
-        flex-direction: column;
-        padding: 24px 0;
-        margin: -4px 0;
-    }
-    .footer-copyright p {
-        padding: 4px 0;
-        font-size: 16px;
-    }
-    .privacy {
-        flex-direction: column;
-    }
-    .privacy-p {
-        margin-right: 0;
-    }
+	.footer-content {
+		padding-top: 24px;
+	}
+	.footer-menu {
+		display: none;
+	}
+	.contact p {
+		font-size: 16px;
+	}
+	.contact a {
+		font-size: 16px;
+	}
+	.material-symbols-outlined {
+		font-size: 20px;
+	}
+	.ic-social {
+		margin: 0 -4px;
+	}
+	.ic-social a {
+		padding: 0 4px;
+	}
+	.ic-social a img {
+		width: 24px;
+		height: 24px;
+	}
+	.footer-copyright {
+		flex-direction: column;
+		padding: 24px 0;
+		margin: -4px 0;
+	}
+	.footer-copyright p {
+		padding: 4px 0;
+		font-size: 16px;
+	}
+	.privacy {
+		flex-direction: column;
+	}
+	.privacy-p {
+		margin-right: 0;
+	}
 }
