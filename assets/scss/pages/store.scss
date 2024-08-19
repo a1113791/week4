@@ -65,11 +65,12 @@
 	&-content {
 		border: 1px solid #00000020;
 		padding: 16px 24px 0 24px;
-		p {
+		li {
 			font-size: 20px;
 			color: #212529;
+			margin-bottom: 8px;
 			& .material-symbols-outlined {
-				font-size: 20px;
+				font-size: 24px;
 				color: #212529;
 				margin-right: 10px;
 			}
@@ -77,6 +78,9 @@
 				font-size: 20px;
 				color: #212529;
 			}
+		}
+		.map-mb {
+			margin-bottom: 16px;
 		}
 	}
 	.Details {
